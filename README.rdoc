@@ -1,0 +1,57 @@
+= tiny_thomas
+
+* Source[http://github.com/dwillis/tiny_thomas]
+
+== DESCRIPTION:
+
+Simple ruby wrapper for the TinyThom.as API, which turns temporary URLs from the Library of Congress' THOMAS legislative service into permalinks.
+
+== INSTALL:
+
+* <tt>sudo gem install tiny_thomas</tt>
+
+  tiny_thomas requires the JSON and Cobra vs Mongoose[http://cobravsmongoose.rubyforge.org/] gems; both are listed as runtime dependencies by tiny_thomas.
+
+== USAGE:
+
+  require 'rubygems'
+  require 'tiny_thomas'
+  
+  url = "http://thomas.loc.gov/cgi-bin/bdquery/D?d112:1:./temp/~bdh7MP:@@@L&summ2=m&|/home/LegislativeData.php|"
+  @link = TinyThomas.permalink(url)
+  "http://thomas.loc.gov/cgi-bin/bdquery/z?d112:hr145:@@@L&summ2=m&"
+
+== Note on Patches/Pull Requests
+
+* Fork the project.
+* Make your feature addition or bug fix.
+* Add tests for it. This is important so I don't break it in a
+  future version unintentionally.
+* Commit, do not mess with rakefile, version, or history.
+  (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
+* Send me a pull request. Bonus points for topic branches.
+
+== LICENSE:
+
+(The MIT License)
+
+Copyright (c) 2010 Derek Willis
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
