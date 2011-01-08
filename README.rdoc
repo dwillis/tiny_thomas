@@ -10,7 +10,9 @@ The search function on THOMAS often leads to a temporary URL that expires fairly
 
 == INSTALL:
 
-* <tt>sudo gem install tiny_thomas</tt>tiny_thomas requires the JSON and Cobra vs Mongoose[http://cobravsmongoose.rubyforge.org/] gems; both are listed as runtime dependencies by tiny_thomas.
+* <tt>sudo gem install tiny_thomas</tt>
+
+tiny_thomas requires the JSON and Cobra vs Mongoose[http://cobravsmongoose.rubyforge.org/] gems; both are listed as runtime dependencies by tiny_thomas.
 
 == USAGE:
 
