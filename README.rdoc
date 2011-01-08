@@ -4,7 +4,9 @@
 
 == DESCRIPTION:
 
-Simple ruby wrapper for the TinyThom.as API, which turns temporary URLs from the Library of Congress' THOMAS legislative service into permalinks. tiny_thomas requires the JSON and Cobra vs Mongoose[http://cobravsmongoose.rubyforge.org/] gems; both are listed as runtime dependencies by tiny_thomas. This is so that tiny_thomas can be run outside of a Rails project (although it can be run inside one as well).
+Simple ruby wrapper for the tinyThom.as API[http://tinythom.as/], which turns temporary URLs from the Library of Congress' THOMAS legislative service into permalinks. tiny_thomas requires the JSON and "CobravsMongoose[http://cobravsmongoose.rubyforge.org/] gems; both are listed as runtime dependencies by tiny_thomas. This is so that tiny_thomas can be run outside of a Rails project (although it can be run inside one as well).
+
+The search function on THOMAS often leads to a temporary URL that expires fairly quickly. The excellent tinyThom.as service details[http://tinythom.as/about] what kinds of content the API understands.
 
 == INSTALL:
 
